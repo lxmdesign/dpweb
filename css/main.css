@@ -343,17 +343,54 @@ ul li {
 .service-section {
 	padding-top: 50px;
 }
-.services {
-
+.services{
+	text-align: center;
 }
-.services-content {
-	padding: 0 15px;
-
-}
-.services img{
+.services img,.services .services-content {
 	width:auto;
 	height:auto;
 	margin: auto;
+}
+.services-content img{
+	margin: auto;
+}
+#dstp03{
+	margin-top: 20px;
+	background: url(../images/dstp03.png) no-repeat center;
+}
+#dstpMiddle_03{
+	background: url(../images/dstpMiddle_03.png) no-repeat  center;
+
+
+}
+#knownPlayer_03{
+	background: url(../images/knownPlayer_03.png) no-repeat;
+	background-position-x: 30px;
+	margin-top: 10px;
+}
+#dstp05{
+	background: url(../images/dstp05.png) no-repeat center;
+
+
+}
+#dstp08{
+	background: url(../images/dstp08.png) no-repeat center;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover ;
+	background-size:cover;
+	width:auto;
+	min-height: 600px;
+	z-index: 999px;
+}
+
+.images .image img{
+	flost:left;
+	width:auto;
+	height:auto;
+}
+.positions{
+	text-align: center;
 }
 /* ------------------------------------------------------------------------------
 	 Works
