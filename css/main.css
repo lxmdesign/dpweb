@@ -4,8 +4,6 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700);
 p {
 	font-size: 13px;
 	line-height: 22.4px;
@@ -304,15 +302,18 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 
+#intro {
+	background: url(../images/pokerPlatform_03.png) no-repeat center;
+
+}
 .banner {
-	background-image: url(../images/banner.jpg);
-	background-position: center top;
-	background-repeat: no-repeat;
+	background: url(../images/banner.png) no-repeat top center;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	min-height: 750px;
+	-o-background-size:cover;
+	-webkit-background-size:cover ;
+	background-size:cover;
+	width:auto;
+	min-height: 600px;
 }
 .banner-text {
 	padding-top: 22%;
@@ -335,35 +336,24 @@ ul li {
 /* ==========================================================================
 	$intro
 ========================================================================== */
-.intro {
-	background-color: #00aeda;
-}
-.intro h3 {
-	color: #fff;
-	margin-top: 0;
-}
-.intro p {
-	font-family: "Merriweather", Arial, sans-serif;
-	color: rgba(255, 255, 255, 0.75);
-	font-weight: 400;
-}
+
 /* ------------------------------------------------------------------------------
 	 Serives
 -------------------------------------------------------------------------------*/
 .service-section {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .services {
-	margin-bottom: 50px;
+
 }
 .services-content {
 	padding: 0 15px;
-	margin-top: 30px;
+
 }
-.services .icon {
-	color: #00aeda;
-	font-size: 50px;
-	padding-left: 15px;
+.services img{
+	width:auto;
+	height:auto;
+	margin: auto;
 }
 /* ------------------------------------------------------------------------------
 	 Works
@@ -455,7 +445,6 @@ ul li {
 .person img {
 	width: 150px;
 	height: 150px;
-	border-radius: 50%;
 	margin: auto;
 }
 .person-content {
