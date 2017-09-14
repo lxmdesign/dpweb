@@ -3,4 +3,6 @@
 # 去掉idea
 .idea/**
 /.idea/**
+.DS_Store/**
+/.DS_Store/**
 
