@@ -52,6 +52,7 @@ ul li {
 }
 .section {
 	padding: 100px 0;
+	padding-bottom: 20px;
 }
 .no-padding {
 	padding: 0;
@@ -79,7 +80,6 @@ ul li {
 	z-index: 999;
 }
 #header .header-content {
-	margin-top: 20px;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -90,32 +90,65 @@ ul li {
 #header .header-content a{
 	float:right;
 	padding-right: 3%;
+
 }
 #header .logo {
 	float: left;
-	font-size:24px;
-	font-weight:700;
 	color:#fff;
 	text-decoration:none;
 	text-transform:uppercase;
-	letter-spacing:7px;
+
+	/*letter-spacing:7px;*/
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #000000;
 }
 #header.fixed a {
 	color: #ffffff;
-}
-#header.fixed .header-content {
-	border-bottom: 0;
-	padding: 25px 0;
-	background-color:#000000;
 
 }
-#header.fixed .nav-toggle {
-	top: 18px;
-	color:#ffffff;
+
+@media screen and (min-width: 739px) {
+	#header.fixed .header-content {
+		border-bottom: 0;
+		background-color:#000000;
+		display:flex;
+		justify-content:space-between;
+
+	}
+	#header.fixed .header-content img {
+		float: left;
+		margin-bottom: 2.5%;
+		height:auto;
+		margin-left:8%;margin-top:2%;
+	}
+
+	#header.fixed .header-content .content-margin {
+		float: right;
+		width: 60%;
+		margin-top: 3%;
+	}
 }
+@media screen and (max-width: 739px){
+	#header.fixed .header-content {
+		border-bottom: 0;
+		background-color:#000000;
+	}
+	#header.fixed .header-content img{
+		float:none;
+		display: block;
+		margin-top: 0;
+	}
+	#header.fixed .header-content .content-margin{
+		float: none;
+		margin-top: 3%;
+	}
+}
+#header.fixed .header-content .content-margin .logo{
+
+}
+
+
 .navigation.open {
 	opacity: 0.9;
 	visibility: visible;
@@ -282,7 +315,7 @@ ul li {
 
 #intro {
 	background: url(../images/pokerPlatform_03.png) no-repeat center;
-
+	margin-top:100px;
 }
 .banner {
 	background: url(../images/banner.png) no-repeat top center;
@@ -291,7 +324,7 @@ ul li {
 	-webkit-background-size:cover ;
 	background-size:cover;
 	width:100%;
-	min-height: 800px;
+	min-height: 900px;
 }
 .banner-text {
 	padding-top: 22%;
@@ -311,20 +344,68 @@ ul li {
 	margin-top: 30px;
 	margin-bottom: 80px;
 }
-.header-content{
 
-}
 .header-content a{
-
 	float:right;
+	font-size:18px;
 }
-/* ==========================================================================
-	$intro
-========================================================================== */
+#header .header-content img{
+	margin-left:8%;margin-top:2%;
+}
+#header .header-content .content-margin{
+	margin-right: 10%;
+}
+#persons .persons{
+	position:relative;
+	-moz-background-size: auto;
+	-o-background-size:auto;
+	-webkit-background-size:auto ;
+	background-size:auto;
+	min-height: 412px;
+	max-width: 234px;
+	margin:0 auto;
+}
 
-/* ------------------------------------------------------------------------------
-	 Serives
--------------------------------------------------------------------------------*/
+#persons .person1{
+	background: url(../images/group3.png) no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#persons .person2{
+	background: url(../images/group5.png) no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#persons .person3{
+	background: url(../images/group4.png) no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#persons .person4{
+	background: url(../images/group7.png) no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#persons .persons .person{
+	font-size: 24.09px;
+	color:#212121;
+	text-align: center;
+	box-sizing: border-box;
+width:80%;
+}
+#persons .persons .person p:nth-child(2){
+
+}
+#persons .persons .person p:nth-child(2){
+	font-size: 18px;
+	text-align: center;
+
+}
+
 .service-section {
 	padding-top: 50px;
 }
@@ -340,28 +421,51 @@ ul li {
 	margin: auto;
 }
 #dstp03{
-	margin-top: 20px;
+	margin-top: 140px;
 	background: url(../images/dstp03.png) no-repeat center;
 	width:100%;
 	min-height: 703px;
 }
+.dstp03-p1{
+	font-size: 36px;
+	color:#efefef;
+	margin-left: 16%;
+	font-weight: bolder;
+}
+.dstp03-p2{
+	font-size: 30px;
+	color:#efefef;
+	margin-left: 16%;
+}
 #dstpMiddle_03{
-	background: url(../images/dstpMiddle_03.png) no-repeat  center;
-	width:100%;
-	min-height: 78px;
+width:80%;
+	margin:0 auto;
 
 }
 #knownPlayer_03{
-	max-height:100px;
-	background: url(../images/knownPlayer_03.png) no-repeat;
-	background-position-x: 30px;
-	margin-top: 10px;
+	mix-height:100px;
+	/*background: url(../images/knownPlayer_03.png) no-repeat left;*/
+
+
 }
 
 #dstp05{
 	background: url(../images/dstp05.png) no-repeat center;
 	width:100%;
-	min-height: 800px;
+	min-height: 900px;
+}
+
+#dstp05 p{
+	font-size: 30px;
+	color:#333333;
+	margin-left: 16%;
+}
+#dstp05 h2{
+	font-size: 32px;
+	font-weight: bolder;
+	color:#333333;
+	margin-left: 16%;
+	font-family: Georgia;
 }
 #dstp08{
 	background: url(../images/dstp08.png) no-repeat center;
@@ -370,17 +474,28 @@ ul li {
 	-webkit-background-size:cover ;
 	background-size:cover;
 	width:100%;
-	min-height: 600px;
+	min-height: 700px;
 
 }
 
 .images .image img{
-	float:left;
 	width:auto;
 	height:auto;
+	margin: 0 auto;
 }
 .positions{
 	text-align: center;
+}
+#simple{
+	margin-top: 5%;
+	height:100px;
+}
+#simple p{
+	color:#333333;
+	font-size:36px;
+	font-family:"Lanting Black" ! important;
+	font-weight:bolder;
+	margin-left: 16%;
 }
 /* ------------------------------------------------------------------------------
 	 Works
@@ -630,9 +745,14 @@ padding:15px 30px 15px 30px;
 }
 .footer .footerP{
 	text-align: left;
+	font-size:14px;
+}
+.footer .footerP p{
+	font-size:14px;
+	color:#c7b98a;
 }
 .footer-top {
-	background-color: #181818;
+	background-color: #020106;
 	padding-top: 50px;
 }
 .footer-bottom {
@@ -646,4 +766,7 @@ padding:15px 30px 15px 30px;
 .footer a:hover {
 	color: #e84545;
 }
-
+.footerImg{
+	display: flex;
+	justify-content:space-around;
+}
