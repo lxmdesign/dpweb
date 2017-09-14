@@ -315,7 +315,7 @@ ul li {
 
 #intro {
 	background: url(../images/pokerPlatform_03.png) no-repeat center;
-	margin-top:100px;
+	margin-top:85px;
 }
 .banner {
 	background: url(../images/banner.png) no-repeat top center;
@@ -416,13 +416,13 @@ height:50px;
 .services img,.services .services-content {
 	width:auto;
 	height:auto;
-	margin: auto;
+	margin: 0 auto;
 }
 .services-content img{
 	margin: auto;
 }
 #dstp03{
-	margin-top: 140px;
+	margin-top: 115px;
 	background: url(../images/dstp03.png) no-repeat center;
 	width:100%;
 	min-height: 703px;
@@ -475,7 +475,7 @@ width:80%;
 	-webkit-background-size:cover ;
 	background-size:cover;
 	width:100%;
-	min-height: 700px;
+	min-height: 800px;
 
 }
 
@@ -488,8 +488,8 @@ width:80%;
 	text-align: center;
 }
 #simple{
-	margin-top: 5%;
-	height:100px;
+	margin-top: 10%;
+	padding-bottom: 80px;
 }
 #simple p{
 	color:#333333;
