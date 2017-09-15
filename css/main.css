@@ -372,7 +372,7 @@ ul li {
 
 }
 #header .header-content img{
-	margin-top:2%;
+	margin-top:6%;
 }
 
 #persons .persons{
@@ -441,7 +441,7 @@ height:50px;
 
 .services-content h1{
 	font-size: 30px;
-	font-family: "Hiragino Sans GB";
+	font-family: "PingFang SC";
 	color:#2e3034;
 	font-weight: bolder;
 }
@@ -460,6 +460,7 @@ height:50px;
 .dstp03{
 	width:85%;
 	margin:0 auto;
+    margin-top:-20px;
 	text-align: left;
 }
 .dstp03-p1{
@@ -480,19 +481,18 @@ height:50px;
 
 }
 #knownPlayer_03{
-	mix-height:100px;
-	/*background: url(../images/knownPlayer_03.png) no-repeat left;*/
+    width:85%;
+    margin:0 auto;
+    text-align: left;
 }
-.knownPlayer_03,.dstp05{
-	width:85%;
-	margin:0 auto;
-	text-align: left;
-}
+
 
 #dstp05{
 	background: url(../images/dstp05.png) no-repeat center;
-	width:100%;
+    width:85%;
 	min-height: 800px;
+    margin:0 auto;
+    text-align: left;
 }
 
 #dstp05 p{
