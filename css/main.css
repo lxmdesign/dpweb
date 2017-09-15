@@ -323,6 +323,11 @@ ul li {
 	width:100%;
 	min-height: 1174px;
 }
+.header img{
+	width:30%;
+	height:30%;
+
+}
 .banner-text {
 	padding-top: 22%;
 }
@@ -358,6 +363,14 @@ ul li {
 	margin:0 auto;
 
 }
+#header.fixed .header-content .content-margin a{
+	padding-left: 20px;
+
+}
+#header.fixed .header-content .content-margin{
+	margin-right: 8%;
+
+}
 #header .header-content img{
 	margin-top:2%;
 }
@@ -371,9 +384,10 @@ ul li {
 	min-height: 412px;
 	max-width: 234px;
 	margin:0 auto;
-
 }
-
+#persons .persons .person{
+	width:80%;
+}
 #persons .person1{
 	background: url(../images/group3.png) no-repeat center;
 	display: flex;
@@ -422,12 +436,20 @@ height:50px;
 	text-align: center;
 }
 .services img,.services .services-content {
-	width:auto;
-	height:auto;
 	margin: 0 auto;
 }
-.services-content img{
+
+.services-content h1{
+	font-size: 30px;
+	font-family: "Hiragino Sans GB";
+	color:#2e3034;
+	font-weight: bolder;
+}
+.services-content p{
 	margin: auto;
+	font-size: 20px;
+	font-family: "PingFang SC";
+	color:#333333;
 }
 #dstp03{
 	margin-top: 115px;
@@ -445,6 +467,7 @@ height:50px;
 	color:#efefef;
 	margin-left: 16%;
 	font-weight: bolder;
+	font-family: "Open Sans", Arial, sans-serif;
 }
 .dstp03-p2{
 	font-size: 30px;
@@ -476,6 +499,7 @@ height:50px;
 	font-size: 30px;
 	color:#333333;
 	margin-left: 16%;
+	font-family: "Open Sans", Arial, sans-serif;
 }
 #dstp05 h2{
 	font-size: 32px;
@@ -513,7 +537,7 @@ height:50px;
 #simple p{
 	color:#333333;
 	font-size:36px;
-	font-family:"Lanting Black" ! important;
+	font-family: "Source Han Sans CN";
 	font-weight:bolder;
 	margin-left: 16%;
 }
