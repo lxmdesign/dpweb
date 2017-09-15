@@ -80,7 +80,8 @@ ul li {
 	z-index: 999;
 }
 #header .header-content {
-	width: 100%;
+	width: 85%;
+	margin:0 auto;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
@@ -120,13 +121,14 @@ ul li {
 		float: left;
 		margin-bottom: 2.5%;
 		height:auto;
-		margin-left:8%;margin-top:2%;
+		margin-top:2%;
+		margin-left: 7%;
 	}
 
 	#header.fixed .header-content .content-margin {
 		float: right;
-		width: 60%;
-		margin-top: 3%;
+		width: 50%;
+		margin-top: 3%;margin-right: 0;
 	}
 }
 @media screen and (max-width: 739px){
@@ -141,14 +143,9 @@ ul li {
 	}
 	#header.fixed .header-content .content-margin{
 		float: none;
-		margin-top: 3%;
+		margin-top: 3%;margin-right: 0;
 	}
 }
-#header.fixed .header-content .content-margin .logo{
-
-}
-
-
 .navigation.open {
 	opacity: 0.9;
 	visibility: visible;
@@ -324,7 +321,7 @@ ul li {
 	-webkit-background-size:cover ;
 	background-size:cover;
 	width:100%;
-	min-height: 900px;
+	min-height: 1174px;
 }
 .banner-text {
 	padding-top: 22%;
@@ -344,17 +341,27 @@ ul li {
 	margin-top: 30px;
 	margin-bottom: 80px;
 }
-
+.content-margin{
+	margin-right: 18%;
+	margin-top: 4%;
+}
 .header-content a{
 	float:right;
 	font-size:18px;
 }
+#header .header-content{
+	width:80%;
+	margin:0 auto;
+}
+#header.fixed .header-content{
+	width:85%;
+	margin:0 auto;
+
+}
 #header .header-content img{
-	margin-left:8%;margin-top:2%;
+	margin-top:2%;
 }
-#header .header-content .content-margin{
-	margin-right: 10%;
-}
+
 #persons .persons{
 	position:relative;
 	-moz-background-size: auto;
@@ -364,6 +371,7 @@ ul li {
 	min-height: 412px;
 	max-width: 234px;
 	margin:0 auto;
+
 }
 
 #persons .person1{
@@ -395,7 +403,7 @@ ul li {
 	color:#212121;
 	text-align: center;
 	box-sizing: border-box;
-width:80%;
+	margin-bottom: 16%;
 }
 #persons .persons .person p:nth-child(2){
 
@@ -427,6 +435,11 @@ height:50px;
 	width:100%;
 	min-height: 703px;
 }
+.dstp03{
+	width:85%;
+	margin:0 auto;
+	text-align: left;
+}
 .dstp03-p1{
 	font-size: 36px;
 	color:#efefef;
@@ -439,21 +452,24 @@ height:50px;
 	margin-left: 16%;
 }
 #dstpMiddle_03{
-width:80%;
+	width:65%;
 	margin:0 auto;
 
 }
 #knownPlayer_03{
 	mix-height:100px;
 	/*background: url(../images/knownPlayer_03.png) no-repeat left;*/
-
-
+}
+.knownPlayer_03,.dstp05{
+	width:85%;
+	margin:0 auto;
+	text-align: left;
 }
 
 #dstp05{
 	background: url(../images/dstp05.png) no-repeat center;
 	width:100%;
-	min-height: 900px;
+	min-height: 800px;
 }
 
 #dstp05 p{
@@ -475,20 +491,23 @@ width:80%;
 	-webkit-background-size:cover ;
 	background-size:cover;
 	width:100%;
-	min-height: 800px;
+	min-height: 900px;
 
 }
-
+#dstp08 .images{
+	height:350px;
+}
 .images .image img{
-	width:auto;
-	height:auto;
 	margin: 0 auto;
 }
 .positions{
 	text-align: center;
 }
 #simple{
-	margin-top: 10%;
+	width:85%;
+	margin:0 auto;
+	text-align: left;
+	margin-top: 3%;
 	padding-bottom: 80px;
 }
 #simple p{
@@ -581,27 +600,11 @@ width:80%;
 /* ------------------------------------------------------------------------------
 	 Teams
 -------------------------------------------------------------------------------*/
-.person {
-	max-width: 270px;
-	text-align: center;
-}
-.person img {
-	width: 150px;
-	height: 150px;
-	margin: auto;
-}
+
 .person-content {
 	margin-top: 20px;
 }
-.person h4 {
-	font-weight: 400;
-}
-.person h5 {
-	color: #00aeda;
-	font-size: 13px;
-	font-weight: 400;
-	margin-bottom: 20px;
-}
+
 .social-icons, .footer .footer-share {
 	margin-top: 30px;
 }
@@ -743,9 +746,10 @@ padding:15px 30px 15px 30px;
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
+
 }
 .footer .footerP{
-	text-align: left;
+	text-align: left !important;
 	font-size:14px;
 }
 .footer .footerP p{
