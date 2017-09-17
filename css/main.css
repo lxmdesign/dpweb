@@ -61,6 +61,18 @@ ul li {
 .space {
 	margin-top: 60px;
 }
+.download{
+	position:absolute;
+	top:75%;
+	left:45%;
+	z-index:777;
+}
+.download a{
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: "PingFang SC";
+	color:#ffffff;
+}
 
 /* ------------------------------------------------------------------------------
 	Header
