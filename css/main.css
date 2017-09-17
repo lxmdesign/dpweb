@@ -173,7 +173,7 @@ margin-top:80px;
 }
 #services{
 	margin:0 auto;
-	width:60%;
+	width:70%;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
@@ -193,6 +193,7 @@ margin-top:80px;
 }
 .services img,.services .services-content {
 	margin: 0 auto;
+
 }
 
 .services-content h1{
@@ -202,6 +203,8 @@ margin-top:80px;
 	font-weight: bolder;
 }
 .services-content p{
+	display: block;
+	width:90%;
 	margin: auto;
 	font-size: 20px;
 	font-family: "PingFang SC";
@@ -240,6 +243,10 @@ margin-top:80px;
 	flex-wrap: nowrap;
 	align-content: center;
 	margin-top:60px;
+}
+
+#dstpMiddle_03 .dstpMiddles .img-responsive{
+	/*display: none;*/
 }
 #knownPlayer_03{
 	width:70%;
