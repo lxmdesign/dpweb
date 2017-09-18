@@ -25,15 +25,6 @@ $(document).ready(function() {
 	// 	urls[i]=urls[i]+="?timestamp=" + new Date().getTime();
 	// }
 
-    // Fancybox
-	$('.work-box').fancybox();
-
-	// Flexslider
-	$('.flexslider').flexslider({
-		animation: "fade",
-		directionNav: false,
-	});
-
 	// Page Scroll
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
@@ -70,5 +61,5 @@ $(document).ready(function() {
 		nav.toggleClass('open');
 	});
 
-    window.onload = function(){setTimeout(function(){$(window).scrollTop(0)},10);}
+    window.onload = function(){setTimeout(function(){$(window).scrollTop(0)},5);}
 });

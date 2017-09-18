@@ -29,9 +29,9 @@ a{
 	cursor:pointer !important;
 }
 a:hover, a:focus {
-	color:#ffff00 !important;
-	text-decoration-color: springgreen;
-	text-decoration: underline;
+	color:#ffedb1 !important;
+	text-decoration: underline ;
+	text-decoration-color: #ffedb1;
 }
 body {
 	margin:0;
@@ -81,16 +81,29 @@ ul li {
 
 }
 .down-content img{
-	width:100%; height:100%;
+	max-width: none !important;
+}
+.down-content .img-responsive{
+	max-width: none !important;
+	display: table ;
+
 }
 .download{
 	margin:0 auto;
+	margin-top: 12px;
 }
 .download a{
 	font-weight: bolder;
 	font-size: 20px;
 	font-family: "PingFang SC";
-	color:#ffffff;
+	color:#ffedb1;
+	text-decoration: underline;
+	text-decoration-color: #ffedb1;
+}
+.download a:hover,.download a:focus{
+	color:#ffedb1 !important;
+	text-decoration: underline !important;
+	text-decoration-color: #ffedb1 !important;
 }
 
 /* ------------------------------------------------------------------------------
@@ -267,6 +280,9 @@ margin-top:80px;
 #dstpMiddle_03 .dstpMiddles .img-responsive{
 	/*display: none;*/
 }
+#dstpMiddle_03 .dstpMiddles img{
+	max-width: none !important;
+}
 #knownPlayer_03{
 	width:70%;
     margin:0 auto;
@@ -280,7 +296,7 @@ margin-top:80px;
 	margin-left: 16%;
 }
 #dstp05 h2{
-	font-size: 32px;
+	font-size: 36px;
 	font-weight: bolder;
 	color:#333333;
 	margin-left: 16%;
