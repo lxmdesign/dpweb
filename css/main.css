@@ -188,11 +188,12 @@ margin-top:80px;
 	position:relative;
 }
 #persons .persons .person{
-	width:90%;
+	width:85%;
 	margin:0 auto;
 	position:absolute;
 	z-index:999;
 	top:66%;
+    left:15px;
 	font-size: 24.09px;
 	color:#212121;
 	box-sizing: border-box;
